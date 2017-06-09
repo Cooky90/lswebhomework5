@@ -1,34 +1,109 @@
 //1. print the number 5 to the console
-
+console.log(5);
 //2. Print your name to the console
-
+console.log("Ashley");
 //3. Store your age as a variable called "myAge"
-
+var myAge = 27;
 //4. Print to the console how old you will be in 5 years
-
+var myAgeIn5Years = myAge + 5;
+console.log("In 5 years I will be " + myAgeIn5Years + " years old." );
 //5. Store your favorite food as a variable called "myFavoriteFood"
-
+var myFavoriteFood = "Lasagne";
 //6. Publish your favorite food to `index.html` using `document.write()`
-
+document.write("My favourite food is " + myFavoriteFood + "<br></br>");
 //7. Print the remainder of 14 / 3 to the console
+document.write(14 % 3);
+document.write("<br></br>")
 
 //8. Print the remainder of 829 / 13 to the console
-
+document.write(829 % 13)
+document.write("<br></br>")
+document.write("<br></br>")
+document.write("<br></br>")
 //9. Create a for loop that counts from 0 to 130 by 3s
-
+// for (var i = 1; i <130; i++) {
+//     i++
+//     i++
+//     document.write(i)
+//     document.write("<br></br>")
+// }
 //10. Create a for loop that counts from 3 to 17 by 2s
-
-//11. Create a for loop that counts from 100 to 3 by -1
-
-//12. Create a for loop that counts from 1 to 100 by 1s
-
+  // for (var i = 3; i <= 17; i++) {
+  //   document.write(i)
+  //   document.write("<br></br>")
+  //   i++
+  // }
+  //11. Create a for loop that counts from 100 to 3 by -1
+// for (var i = 100; i >=3; i--) {
+//
+//   document.write(i)
+//   document.write("<br></br>")
+//
+// }
+  //12. Create a for loop that counts from 1 to 100 by 1s
+// for (var i = 1; i  <=100; i++) {
+//
+//   document.write(i)
+//   document.write("<br></br>")
+//
+//
+// }
 //13. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizz` if the number is divisible by 5
-
+// for (var i = 1; i <=100 ; i++) {
+//   if (i % 5 == 0) {
+//       document.write("fizz")
+//       document.write("<br></br>")
+//     }
+//   else {
+//       document.write(i)
+//       document.write("<br></br>")
+//       }
+//   }
 //14. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `buzz` if the number is divisible by 3
-
+// for (var i = 1; i <=100 ; i++) {
+//
+//   if (i % 3 == 0) {
+//     document.write("buzz")
+//     document.write("<br></br>")
+//   }
+//   else {
+//     document.write(i)
+//     document.write("<br></br>")
+//   }
+//
+// }
 //15. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizzbuzz` if the number is divisible by 15
-
+// for (var i = 1; i <=100; i++) {
+//   if (i % 15 == 0) {
+//     document.write("fizzbuzz")
+//     document.write("<br></br>")
+//   }
+//   else {
+//     document.write(i)
+//     document.write("<br></br>")
+//   }
+// }
 //EXTRA CREDIT: Fizzbuzz
+for (var i = 1; i <=100; i++) {
+  if (i % 15 == 0) {
+    document.write("FizzBuzz")
+    document.write("<br></br>")
+  }
+  else if (i % 5 == 0) {
+    document.write("Buzz")
+    document.write("<br></br>")
+  }
+  else if (i % 3 == 0) {
+    document.write("Fizz")
+    document.write("<br></br>")
+  }
+  else {
+    document.write(i)
+    document.write("<br></br>")
+  }
+
+}
+
 
 /*
 
